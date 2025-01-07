@@ -9,6 +9,7 @@
             {
                 Repulok.Add(new Repulo(sor));
             }
+            Console.WriteLine($"4.Feladat: \t Adatsorok száma: {Repulok.Count()}");
         }
     }
 }
