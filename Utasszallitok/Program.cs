@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<Repulo> Repulok = new();
+            foreach (var sor in File.ReadAllLines("utasszallitok.txt").Skip(1))
+            {
+                Repulok.Add(new Repulo(sor));
+            }
         }
     }
 }
